@@ -42,4 +42,3 @@ for gast in gastenlijst:
 del gastenlijst[0]
 del gastenlijst[0]
 print(gastenlijst) 
-
