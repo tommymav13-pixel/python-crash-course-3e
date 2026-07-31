@@ -26,4 +26,4 @@ print("\nHere is the list in alphabetical order:")
 plaatsen.sort()
 print(plaatsen) 
 
-print(f"\nThere are {len(plaatsen)} places in the list.")   
+print(f"\nThere are {len(plaatsen)} places in the list.")
