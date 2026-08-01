@@ -1,3 +1,4 @@
+#here are three different ways to generate a list of the first 10 multiples of 3, using a for loop, a for loop with append(), and a list comprehension.
 threes = []
 for value in range(3, 31):
     three = value * 3
