@@ -30,7 +30,7 @@ if 'erin' not in favorite_languages.keys():
 for name in sorted(favorite_languages.keys()):
     print(f"{name.title()}, thank you for taking the poll.")
 
-# Looop through all Values in a Dictionary
+# Loop through all Values in a Dictionary
 print("The following languages have been mentioned:")
 for language in favorite_languages.values():
     print(language.title())
