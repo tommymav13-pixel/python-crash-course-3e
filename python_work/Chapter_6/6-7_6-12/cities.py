@@ -2,17 +2,20 @@ cities = {
     'amsterdam': {
         'population': 'high',
         'country': 'netherlands',
-        'fact': 'The Royal Palace on Dam Square alone is held up by 13,659 wooden poles.'
+        'fact': 'The Royal Palace on Dam Square alone is held up by 13,659 '
+        'wooden poles.'
     },
     'london': {
         'population': 'normal',
         'country': 'engeland',
-        'fact': 'The London Underground is the oldest underground railway system in the world'
+        'fact': 'The London Underground is the oldest underground railway '
+        'system in the world.'
     },
     'madrid': {
         'population': 'normal',
         'country': 'spain',
-        'fact': 'Madrid is the highest capital city in Europe, sitting 650 meters (2,133 feet) above sea level on a central plateau.'
+        'fact': 'Madrid is the highest capital city in Europe, sitting 650 '
+        'meters (2,133 feet) above sea level on a central plateau.'
     }
 }
 
