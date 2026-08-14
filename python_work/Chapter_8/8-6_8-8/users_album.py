@@ -18,3 +18,18 @@ print(album)
 
 # create a while loop that allows users to enter an album’s artist and title.
 # think prompt and input()
+
+while True:
+    print("\nPlease tell me your favorite album:")
+    print("enter 'q' at any time to quit)")
+
+    t_name = input("Album title: ")
+    if t_name == 'q':
+          break
+
+    a_name = input("Artist name: ")
+    if a_name == 'q':
+          break
+
+    album_name = make_album(a_name, t_name)
+    print(f"\nHello, {album_name}!")
