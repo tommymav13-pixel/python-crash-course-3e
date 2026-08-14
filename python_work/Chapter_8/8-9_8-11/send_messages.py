@@ -22,7 +22,7 @@ messages = [
 
 sent_messages = []
 
-send_messages(messages, sent_messages)
+send_messages(messages[:], sent_messages)
 
 print(messages)
 print(sent_messages)
