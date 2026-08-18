@@ -5,6 +5,7 @@ def send_messages(messages, sent_messages):
         print(f"Sending message: {current_message}")
         sent_messages.append(current_message)
 
+
 def show_sent_messages(sent_messages):
     """Show all the messages that were sent."""
     print("\nThe following messages have been sent:")
