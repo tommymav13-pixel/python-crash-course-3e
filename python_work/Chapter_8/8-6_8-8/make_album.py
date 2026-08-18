@@ -1,4 +1,4 @@
-def make_album(artist_name, album_title, album_number = None):
+def make_album(artist_name, album_title, album_number=None):
         """Return a dictionary of information about an album."""
         album_01 = {'artist': artist_name, 'title': album_title}
 
