@@ -19,9 +19,20 @@ class Restaurant:
 
 
 my_restaurant = Restaurant("IDA", "japanese")
+restaurant_02 = Restaurant("Loetje", "steak")
+restaurant_03 = Restaurant("Beren", "pancake")
 
 print(f"My favourite restaurant is {my_restaurant.restaurant_name}!")
 print(f"They serve {my_restaurant.cuisine_type} cuisine.")
-
 my_restaurant.describe_restaurant()
 my_restaurant.open_restaurant()
+
+print(f"My favourite restaurant is {restaurant_02.restaurant_name}!")
+print(f"They serve {restaurant_02.cuisine_type} cuisine.")
+restaurant_02.describe_restaurant()
+restaurant_02.open_restaurant()
+
+print(f"My favourite restaurant is {restaurant_03.restaurant_name}!")
+print(f"They serve {restaurant_03.cuisine_type} cuisine.")
+restaurant_03.describe_restaurant()
+restaurant_03.open_restaurant()
